@@ -24,8 +24,6 @@ In the other situations, program will print error messages and terminated.
 
 ## Notes
 
-
-* Every project **MUST** use `dep` for vendor management and **MUST** checkin `vendor` direcotry.
 *  To run application you have to change import statment about for searchhelper pacakge. You have two option.
 *  First one is that you can put the searchelper directory in src directory that is in `GOPATH` . In this case you don't need to update import statment.
 ```go
