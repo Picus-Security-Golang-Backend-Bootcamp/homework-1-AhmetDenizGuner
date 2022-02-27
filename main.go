@@ -34,7 +34,8 @@ func main() {
 
 		//check string that will be searched is equal or bigger than  3 char
 		if len(searchItem) < 3 {
-
+			fmt.Println("Lütfen daha uzun bir keime giriniz!")
+			return
 		}
 
 		//Searching string in book list
