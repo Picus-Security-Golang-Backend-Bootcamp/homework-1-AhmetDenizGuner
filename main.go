@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"searchhelper"
 	"strings"
+	"workspace/my_packages/searchhelper"
 )
 
 func main() {
